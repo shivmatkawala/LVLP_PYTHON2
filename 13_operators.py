@@ -177,5 +177,55 @@ z = 2
 
 # print(not(z < x))
 
-    # Ternary Operators
+    # Ternary Operators:
+        # Ternary operators are used to provide conditional output.
+        # ternary operators do use if and else keywords
+        # ternary operators are single line expressions
+        # They are faster.
+        # It is recommended to use ternary operators if conditions are less and simple.
+        # For complex and many conditions use conditional statements not ternary operators.
+
+# Ask user to enter his/her favourate primary color. [Red, Blue, Green]
+# And accordingly display the meaning of color.
+# Red ==> Sacrifice
+# Blue ===> Peace
+# Green ===> Nature
+
+# fav_prim_color = input("Enter your favourate primary color: ")
+# result = "Sacrifice" if fav_prim_color == "Red" else "Peace" if fav_prim_color == "Blue" else "Nature" if fav_prim_color == "Green" else "Invalid Color"
+# print(result)
+
+# Write a program where you ask user to enter his/her marks
+# and you tell the grade which they got.
+
+# marks < 40 ===> Fail
+# marks >= 40 and marks < 60 ===> Class B
+# marks >= 60 and marks < 80 ===> Class A
+# marks >= 80 and marks < 100 ====> Class A+
+# else  ==> "Invalid Marks"
+
+
+# marks = int(input("Enter your marks: "))
+# result = "Fail" if marks < 40 else "B" if marks >=40 and marks < 60 else "A" if marks >=60 and marks <80 else "A+" if marks >= 80 and marks < 100 else "Invalid Marks"
+# print(result)
+
     # Bitwise OPerators
+        # Bitwise operators work at bit levels.
+        # To make search of element in collection faster we can use it.
+        # To perform any operators faster we use it.
+
+        # Types of Bitwise Operators:
+            # &  (AND)
+# print(23 & 45)   # 5
+# first convert 23 and 45 into binary
+# print(bin(23))   # 10111
+# print(bin(45))   # 101101 
+# print(int("101", 2))
+
+            # |  (OR)
+# print(23 | 45)   # 63
+# print(int("111111", 2))
+
+            # ^  (XOR)
+# print(23 ^ 45)
+# print(int("111010", 2))
